@@ -66,7 +66,7 @@ class LL{
     void DelEnd(){
         Node temp=Start;
         while(temp.next.next!=null){
-            temp.next=null;
+            temp=temp.next;
         }
         temp.next=null;
     }
